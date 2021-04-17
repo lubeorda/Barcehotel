@@ -1,0 +1,340 @@
+body {
+  background-color: #ffffff; }
+
+header {
+  background-color: #A67A60;
+  color: #593123;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 0%;
+  padding: 0%;
+  position: fixed;
+  top: 0%;
+  width: 1920px; }
+
+#menuDesktop {
+  margin-left: 65%; }
+
+#menuDesktop .menu ul li {
+  display: inline;
+  padding: 2.5px; }
+
+header img {
+  width: 5%; }
+
+#divMain {
+  margin: 5% 0px 0px 0px;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 7%;
+  background-position: center center;
+  background-size: 100%; }
+
+.fondo_principal {
+  animation-name: imagenes_fondo;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in; }
+
+nav ul li a {
+  background-color: #A67A60;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: left;
+  display: inline; }
+
+#menuDesplegable img {
+  width: 90%;
+  display: inline;
+  margin-top: 0%; }
+
+#btnGroupDrop1 {
+  width: 7%;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #A67A60;
+  color: #593123;
+  margin-left: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0%; }
+
+.dropdown-menu {
+  background-color: #A67A60; }
+
+.itemMenuDesplegable {
+  color: white;
+  background-color: #A67A60;
+  text-decoration: none;
+  text-align: left; }
+
+.itemMenuDesplegable:hover {
+  color: #593123;
+  background-color: #A67A60;
+  text-decoration: none;
+  text-align: left; }
+
+ul {
+  margin-top: 1%;
+  padding-top: 1%; }
+
+nav ul li a:hover {
+  color: #593123; }
+
+header nav {
+  position: fixed;
+  top: 0%;
+  width: 100%; }
+
+section {
+  background-color: #A67A60;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; }
+
+#hotel img {
+  width: 640px; }
+
+#divHotel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  width: 1920px; }
+
+#divHotel img:hover {
+  transform: scale(2); }
+
+footer {
+  background-color: #A67A60;
+  color: #ffffff; }
+
+footer h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; }
+
+table {
+  margin: auto;
+  padding: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; }
+
+table thead {
+  color: #593123;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; }
+
+h1 {
+  color: #593123;
+  font-size: 190px;
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: medium;
+  line-height: 180px; }
+
+h2 {
+  color: #593123;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; }
+
+h5 {
+  color: #593123;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; }
+
+p {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; }
+
+.cardbody h5 p {
+  color: #a75b19;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; }
+
+#buscador fieldset {
+  border: solid 2px;
+  border-radius: 45px;
+  padding: 1%;
+  width: 960px; }
+
+#buscador .boton {
+  width: 384px;
+  margin-top: 1%;
+  margin-bottom: 1%; }
+
+#buscador select {
+  margin: 1%; }
+
+#buscador label {
+  margin: 1%; }
+
+.boton {
+  background-color: #ffffff;
+  color: #593123;
+  border-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  border: solid 0.5px;
+  border-radius: 5px;
+  text-align: center; }
+
+#habitaciones img:hover {
+  transform: scale(2); }
+
+.menu ul {
+  list-style-type: none; }
+
+form {
+  color: #593123;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: auto; }
+  form fieldset {
+    width: 70%;
+    padding: 2%; }
+  form input {
+    border: solid 0.5px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 2%;
+    text-align: left; }
+
+form textarea {
+  border: solid 0.5px;
+  border-radius: 10px;
+  padding: 5%;
+  margin: auto;
+  width: 50%; }
+
+.etiqueta {
+  padding-left: 2%;
+  margin-left: 2%; }
+
+input #buscar {
+  padding: 1%; }
+
+select {
+  color: #593123;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  border: solid 0.5px;
+  border-radius: 10px;
+  margin: 2%; }
+
+footer h4 {
+  display: inline; }
+
+#pieDePagina {
+  margin-left: 5%; }
+
+#datosContacto {
+  margin-left: 70%; }
+
+p {
+  padding: 2%; }
+
+input {
+  transition: all 2s; }
+
+input:focus {
+  width: 200px;
+  font-size: 24px; }
+
+.card {
+  height: 100%;
+  background-color: #A67A60; }
+
+#card1 {
+  margin-top: 5%;
+  margin-left: 384px;
+  margin-right: 384px; }
+
+#card2 {
+  margin-top: 5%;
+  margin-left: 384px;
+  margin-right: 384px; }
+
+#card3 {
+  margin-top: 5%;
+  margin-left: 384px;
+  margin-right: 384px; }
+
+@keyframes imagenes_fondo {
+  0% {
+    background-image: url("instalaciones2.jpg"); }
+  50% {
+    background-image: url("imagen4.jpg"); }
+  100% {
+    background-image: url("instalaciones6.jpg"); } }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 800%; }
+  #divhotel img {
+    display: grid;
+    grid-template: 100%; }
+  #menuDesktop {
+    display: none; }
+  #buscador fieldset {
+    border: solid 2%;
+    border-radius: 30px;
+    padding: 1%;
+    width: 60%;
+    margin-right: 55%; }
+  #cardContainerDesktop {
+    display: none; }
+  #img-hab-desktop {
+    display: none; }
+  #img-hab img {
+    width: 50%;
+    padding: 0.5%;
+    margin-bottom: 1%;
+    margin-top: 1%; }
+  #habitaciones img:hover {
+    transform: scale(2); }
+  fieldset {
+    background-color: #D9C3B0;
+    border-color: #593123;
+    width: 90%;
+    margin: auto;
+    border: solid 2px; } }
+
+@media only screen and (min-width: 768px) {
+  #menuDesplegable {
+    display: none; }
+  #cardContainer {
+    display: none; }
+  #img-hab {
+    display: none; }
+  #img-hab-desktop img {
+    width: 18%;
+    padding: 0.5%;
+    margin-bottom: 3%;
+    margin-top: 3%; }
+  #habitaciones img:hover {
+    transform: scale(2); }
+  fieldset {
+    background-color: #D9C3B0;
+    border-color: #593123;
+    width: 50%;
+    margin: auto;
+    border: solid 2px; } }
+
+.redsocial, .redsocial--nueva {
+  color: #593123;
+  background-color: #ffffff;
+  width: 5%;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 0% 4% 0%; }
+
+.redsocial--nueva {
+  font-weight: bolder; }
